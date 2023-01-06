@@ -37,6 +37,8 @@ function run(cmd, options) {
 		...options,
 	};
 
+	console.log(cmd);
+
 	core.debug(cmd);
 
 	try {
