@@ -37,14 +37,11 @@ function run(cmd, options) {
 		...options,
 	};
 
-	core.debug(cmd);
-
-	core.debug(cmd);
+	core.debug('Running command: '.cmd);
 
 	try {
 		const stdout = execSync(cmd, {
 			encoding: "utf8",
-			cwd: optionsWithDefaults.dir,
 			maxBuffer: 20 * 1024 * 1024,
 		});
 		const output = {
