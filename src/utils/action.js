@@ -37,7 +37,7 @@ function run(cmd, options) {
 		...options,
 	};
 
-	core.debug('Running command: '.cmd);
+	core.debug("Running command: ".cmd);
 
 	try {
 		const stdout = execSync(cmd, {

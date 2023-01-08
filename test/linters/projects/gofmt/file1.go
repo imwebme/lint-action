@@ -4,7 +4,7 @@ import "fmt"
 
 var str = "world"
 
-func main () { // Whitespace error
+func main() { // Whitespace error
 	fmt.Println("hello " + str)
 }
 
@@ -17,5 +17,5 @@ func subtract(num1 int, num2 int) int {
 }
 
 func multiply(num1 int, num2 int) int {
-  return num1 * num2 // Indentation error
+	return num1 * num2 // Indentation error
 }
